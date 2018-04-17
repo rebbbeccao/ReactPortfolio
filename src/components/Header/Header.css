@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: inline-block;
+  align-content: center;
+}
+
+.row {
+  float: none;
+  width: 700px;
+  display: inline-block;
+}
+
+.col-sm-2 {
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+}

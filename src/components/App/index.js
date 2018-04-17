@@ -19,6 +19,7 @@ class App extends Component {
         <Experience />
         <Contact />
         <Tech />
+
         <Footer />
       </div>
     );
