@@ -1,6 +1,6 @@
 .about-container {
   height: 600px;
-  padding-top: 65px;
+  padding-top: 87px;
   margin-bottom: 120px;
   background-image: url('../../assets/blossom-bouquet.jpg');
   background-repeat: no-repeat;
@@ -10,24 +10,27 @@
   box-shadow: inset 0px -11px 8px -10px;
 }
 .text-cushion {
+  padding-bottom: 15px;
   background-color: white;
   display: inline-block;
   align-content: center;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  /* opacity: 0.6; */
+  /* filter: alpha(opacity=60); */
+  background: rgba(255, 255, 255, 0.5);
   height: 400px;
   width: 70%;
 }
 
 .text {
+  padding: 20px 15px 17px 15px;
   display: inline-block;
   align-content: center;
   background-color: white;
-  opacity: 0.9;
-  filter: alpha(opacity=60);
+  background: transparent;
   border: 3px solid #efe3e7;
   height: 350px;
   width: 95%;
+
   margin-top: 25px;
 }
 p {
@@ -36,9 +39,4 @@ p {
   font-size: 16px;
   font-weight: bolder;
   color: grey;
-}
-
-.text {
-  padding: 40px 15px 17px 15px;
-  /* border: 10px solid black; */
 }

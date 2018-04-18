@@ -1,2 +1,2 @@
-import Experience from './Experience';
-export default Experience;
+import Card from './Experience';
+export default Card;

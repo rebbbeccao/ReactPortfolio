@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import Header from '../Header';
 import Branding from '../Branding';
 import About from '../About';
-import Experience from '../Experience';
+// import Experience from '../Experience';
+import Card from '../Experience';
 import Contact from '../Contact';
 import Tech from '../Technologies';
 import Footer from '../Footer';
@@ -16,7 +17,8 @@ class App extends Component {
         <Header />
         <Branding />
         <About />
-        <Experience />
+        {/* <Experience /> */}
+        <Card />
         <Contact />
         <Tech />
 
