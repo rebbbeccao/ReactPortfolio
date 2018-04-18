@@ -1,0 +1,13 @@
+.title {
+  /* font-family: 'Petit Formal Script', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Sacramento', cursive;
+  font-size: 48px;
+  padding-top: 75px;
+}
+
+.container {
+  height: 250px;
+  margin-top: 0px;
+}

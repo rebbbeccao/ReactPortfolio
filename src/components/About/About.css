@@ -1,0 +1,23 @@
+.about-container {
+  height: 400px;
+  padding-top: 65px;
+  margin-bottom: 120px;
+  background-image: '../../assets/blossom-bouquet.jpg';
+}
+.text-cushion {
+  background-color: white;
+  display: inline-block;
+  align-content: center;
+  height: 300px;
+  width: 70%;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+p {
+  margin-bottom: 1px;
+}
+
+.text {
+  padding: 40px 15px 17px 15px;
+  /* border: 10px solid black; */
+}
