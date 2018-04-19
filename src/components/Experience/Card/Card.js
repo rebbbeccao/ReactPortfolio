@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import './Experience.css';
+// import ReactDOM from 'react-dom';
+import ExperienceItem from '../../../containers/ExperienceItems';
+import './Card.css';
 // import Card from '../../containers/Cards';
 
-const cardContainer = document.querySelector('.react-card');
+// const cardContainer = document.querySelector('.react-card');
 
 // React component for form inputs
 class CardInput extends Component {
@@ -72,6 +73,7 @@ class CardProfileLinks extends React.Component {
     );
   }
 }
+
 // React component for the backside of the card
 class CardBack extends React.Component {
   render() {
@@ -142,42 +144,42 @@ class CardBack extends React.Component {
 }
 
 // React component for the frontside of the card
-class CardFront extends React.Component {
-  render() {
-    return (
-      <div className="card-side side-front">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-xs-6">
-              <img src="https://source.unsplash.com/w8YICpz1I10/358x458" />
-            </div>
+const CardFront = props => {
+  return (
+    <div className="card-side side-front">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-xs-6">
+            <img src="https://source.unsplash.com/w8YICpz1I10/358x458" />
+          </div>
 
-            <div className="col-xs-6 side-front-content">
-              <h2>Czech based</h2>
+          <div className="col-xs-6 side-front-content">
+            <h2>Czech based</h2>
 
-              <h1>UI/UX Designer</h1>
+            <h1>UI/UX Designer</h1>
 
-              <p>
-                Andrey is driven by turning ideas into scalable and and
-                empowering experiences that solve real life problems.
-              </p>
+            {/* <p>
+              Andrey is driven by turning ideas into scalable and and empowering
+              experiences that solve real life problems.
+            </p>
 
-              <p>
-                He is currently the founder of Dvorak Media. Previously, Andrey
-                was a product designer at Dropbox.
-              </p>
+            <p>
+              He is currently the founder of Dvorak Media. Previously, Andrey
+              was a product designer at Dropbox.
+            </p>
 
-              <p>
-                Over the years, Michael has been priviledged to have worked with
-                Adobe, Evernote, Square and more.
-              </p>
-            </div>
+            <p>
+              Over the years, Michael has been priviledged to have worked with
+              Adobe, Evernote, Square and more.
+            </p> */}
+
+            <ExperienceItem />
           </div>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 class Card extends React.Component {
   render() {
@@ -192,14 +194,5 @@ class Card extends React.Component {
     );
   }
 }
-
-// class Experience extends Component {
-//   render() {
-//     return <div class="react-card" />;
-//   }
-// }
-
-// // Render Card component
-// ReactDOM.render(<Card />, cardContainer);
 
 export default Card;
