@@ -31,8 +31,8 @@ h2 {
   position: relative;
   z-index: 1;
   margin: 32px auto;
-  max-width: 720px;
-  height: 420px;
+  max-width: 520px;
+  height: 320px;
   perspective: 1000px;
 }
 

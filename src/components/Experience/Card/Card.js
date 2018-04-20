@@ -98,59 +98,16 @@ const CardBack = props => {
           <div className="col-xs-6">
             <strong>Name:</strong>
             <p>{props.name}</p>
-
-            {/* <CardInput
-                  name="contactFirstName"
-                  id="contactFirstName"
-                  type="text"
-                  placeholder="Your first name"
-                /> */}
           </div>
 
-          <div className="col-xs-6">
-            {/* <CardInput
-                  name="contactLastName"
-                  id="contactLastName"
-                  type="text"
-                  placeholder="Your last name"
-                /> */}
-          </div>
+          <div className="col-xs-6" />
         </div>
 
         <div className="row">
-          <div className="col-xs-6">
-            {/* <CardInput
-                  name="contactEmail"
-                  id="contactEmail"
-                  type="email"
-                  placeholder="Your email address"
-                /> */}
-          </div>
+          <div className="col-xs-6" />
 
-          <div className="col-xs-6">
-            {/* <CardInput
-                  name="contactSubject"
-                  id="contactSubject"
-                  type="text"
-                  placeholder="Subject"
-                /> */}
-          </div>
+          <div className="col-xs-6" />
         </div>
-
-        {/* <CardTextarea
-              name="contactMessage"
-              id="contactMessage"
-              placeholder="Your message"
-            /> */}
-
-        {/* <CardBtn
-              className="btn btn-primary"
-              type="submit"
-              value="Send message"
-            /> */}
-        {/* </form> */}
-        {/* <Title experience={experience} /> */}
-        {/* <CardProfileLinks /> */}
       </div>
     </div>
   );
@@ -179,6 +136,18 @@ const CardFront = props => {
 };
 
 const Card = props => {
+  // class Card extends Component {
+  //   state = {
+  //     current: null
+  //   };
+
+  //   componentWillMount() {
+  //       const experience = this.state.current.map(card => card.id);
+  //       this.setState({ current: experience });
+  //     };
+  // }
+
+  // render() {
   return (
     <div className="card-container">
       <div className="card-body">
@@ -200,6 +169,7 @@ const Card = props => {
       </div>
     </div>
   );
+  // }
 };
 
 export default Card;
