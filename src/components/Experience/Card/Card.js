@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 // import ExperienceItem from '../../../containers/ExperienceItems';
 import './Card.css';
+// import Title from './Title';
 import experience from './experience.json';
 // import Card from '../../containers/Cards';
 
@@ -75,87 +76,85 @@ import experience from './experience.json';
 //   }
 // }
 
-// const ExperienceItem = () => <List experience={experience} />;
-
-// react test list component
-const Title = props => (
-  <div className="list-group">
-    {props.experience.map(item => (
-      <li className="list-group-item" key={item.id}>
-        {item.name}
-      </li>
-    ))}
-  </div>
-);
+// // react test list component
+// const Title = props => (
+//   <div className="content">
+//     <ul>
+//       {/* <li> */}
+//       <strong>Name:</strong>
+//       <p>{props.name}</p>
+//       {/* </li> */}
+//     </ul>
+//   </div>
+// );
 
 // React component for the backside of the card
-class CardBack extends React.Component {
-  render() {
-    return (
-      <div className="card-side side-back">
-        <div className="container-fluid">
-          <h1>Let's get in touch!</h1>
+const CardBack = props => {
+  return (
+    <div className="card-side side-back">
+      <div className="container-fluid">
+        {/* <form formAction="" className="card-form"> */}
+        <div className="row">
+          <div className="col-xs-6">
+            <strong>Name:</strong>
+            <p>{props.name}</p>
 
-          <form formAction="" className="card-form">
-            <div className="row">
-              <div className="col-xs-6">
-                {/* <CardInput
+            {/* <CardInput
                   name="contactFirstName"
                   id="contactFirstName"
                   type="text"
                   placeholder="Your first name"
                 /> */}
-              </div>
+          </div>
 
-              <div className="col-xs-6">
-                {/* <CardInput
+          <div className="col-xs-6">
+            {/* <CardInput
                   name="contactLastName"
                   id="contactLastName"
                   type="text"
                   placeholder="Your last name"
                 /> */}
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div className="row">
-              <div className="col-xs-6">
-                {/* <CardInput
+        <div className="row">
+          <div className="col-xs-6">
+            {/* <CardInput
                   name="contactEmail"
                   id="contactEmail"
                   type="email"
                   placeholder="Your email address"
                 /> */}
-              </div>
+          </div>
 
-              <div className="col-xs-6">
-                {/* <CardInput
+          <div className="col-xs-6">
+            {/* <CardInput
                   name="contactSubject"
                   id="contactSubject"
                   type="text"
                   placeholder="Subject"
                 /> */}
-              </div>
-            </div>
+          </div>
+        </div>
 
-            {/* <CardTextarea
+        {/* <CardTextarea
               name="contactMessage"
               id="contactMessage"
               placeholder="Your message"
             /> */}
 
-            {/* <CardBtn
+        {/* <CardBtn
               className="btn btn-primary"
               type="submit"
               value="Send message"
             /> */}
-          </form>
-          <Title experience={experience} />
-          {/* <CardProfileLinks /> */}
-        </div>
+        {/* </form> */}
+        {/* <Title experience={experience} /> */}
+        {/* <CardProfileLinks /> */}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 // React component for the frontside of the card
 const CardFront = props => {
@@ -168,11 +167,10 @@ const CardFront = props => {
           </div>
 
           <div className="col-xs-6 side-front-content">
-            <h2>Czech based</h2>
-
+            <h2>{props.name}</h2>
             <h1>UI/UX Designer</h1>
 
-            <Title experience={experience} />
+            {/* <Title experience={experience} /> */}
           </div>
         </div>
       </div>
@@ -180,18 +178,28 @@ const CardFront = props => {
   );
 };
 
-class Card extends React.Component {
-  render() {
-    return (
-      <div className="card-container">
-        <div className="card-body">
-          <CardBack />
+const Card = props => {
+  return (
+    <div className="card-container">
+      <div className="card-body">
+        {experience.map(details => (
+          <CardBack
+            id={details.id}
+            name={details.name}
+            description={details.description}
+          />
+        ))}
 
-          <CardFront />
-        </div>
+        {experience.map(details => (
+          <CardFront
+            id={details.id}
+            name={details.name}
+            description={details.description}
+          />
+        ))}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Card;
