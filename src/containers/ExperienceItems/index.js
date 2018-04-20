@@ -1,51 +1,39 @@
 import React from 'react';
 import List from './List';
 
-const experienceList = [
-  {
-    id: 1,
-    title: 'Milk',
-    description: true,
-    link: '',
-    image: ''
-  },
-  {
-    id: 2,
-    title: 'Eggs',
-    description: true,
-    link: '',
-    image: ''
-  },
-  {
-    id: 3,
-    title: 'Cheese',
-    description: false,
-    link: '',
-    image: ''
-  },
-  {
-    id: 4,
-    title: 'Cake Mix',
-    description: false,
-    link: '',
-    image: ''
-  },
-  {
-    id: 5,
-    title: 'Carrots',
-    description: false,
-    link: '',
-    image: ''
-  },
-  {
-    id: 6,
-    title: 'Juice',
-    description: true,
-    link: '',
-    image: ''
-  }
-];
+// const experience = [
+//   {
+//     id: 1,
+//     name: 'Milk',
+//     description: true
+//   },
+//   {
+//     id: 2,
+//     name: 'Eggs',
+//     description: true
+//   },
+//   {
+//     id: 3,
+//     name: 'Cheese',
+//     description: false
+//   },
+//   {
+//     id: 4,
+//     name: 'Cake Mix',
+//     description: false
+//   },
+//   {
+//     id: 5,
+//     name: 'Carrots',
+//     description: false
+//   },
+//   {
+//     id: 6,
+//     name: 'Juice',
+//     description: true
+//   }
+// ];
 
-const ExperienceItem = () => <List experienceList={experienceList} />;
+// const ExperienceItem = () => <List experience={experience} />;
 
 export default ExperienceItem;

@@ -1,78 +1,92 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
-import ExperienceItem from '../../../containers/ExperienceItems';
+// import ExperienceItem from '../../../containers/ExperienceItems';
 import './Card.css';
+import experience from './experience.json';
 // import Card from '../../containers/Cards';
 
 // const cardContainer = document.querySelector('.react-card');
 
-// React component for form inputs
-class CardInput extends Component {
-  render() {
-    return (
-      <fieldset>
-        <input
-          name={this.props.name}
-          id={this.props.id}
-          type={this.props.type || 'text'}
-          placeholder={this.props.placeholder}
-          required
-        />
-      </fieldset>
-    );
-  }
-}
+// // React component for form inputs
+// class CardInput extends Component {
+//   render() {
+//     return (
+//       <fieldset>
+//         <input
+//           name={this.props.name}
+//           id={this.props.id}
+//           type={this.props.type || 'text'}
+//           placeholder={this.props.placeholder}
+//           required
+//         />
+//       </fieldset>
+//     );
+//   }
+// }
 // React component for textarea
-class CardTextarea extends Component {
-  render() {
-    return (
-      <fieldset>
-        <textarea
-          name={this.props.name}
-          id={this.props.id}
-          placeholder={this.props.placeholder}
-          required
-        />
-      </fieldset>
-    );
-  }
-}
+// class CardTextarea extends Component {
+//   render() {
+//     return (
+//       <fieldset>
+//         <textarea
+//           name={this.props.name}
+//           id={this.props.id}
+//           placeholder={this.props.placeholder}
+//           required
+//         />
+//       </fieldset>
+//     );
+//   }
+// }
 // React component for form button
-class CardBtn extends Component {
-  render() {
-    return (
-      <fieldset>
-        <button
-          className={this.props.className}
-          type={this.props.type}
-          value={this.props.value}
-        >
-          {this.props.value}
-        </button>
-      </fieldset>
-    );
-  }
-}
+// class CardBtn extends Component {
+//   render() {
+//     return (
+//       <fieldset>
+//         <button
+//           className={this.props.className}
+//           type={this.props.type}
+//           value={this.props.value}
+//         >
+//           {this.props.value}
+//         </button>
+//       </fieldset>
+//     );
+//   }
+// }
 // React component for social profile links
-class CardProfileLinks extends React.Component {
-  render() {
-    const profileLinks = ['twitter', 'linkedin', 'dribbble', 'facebook'];
+// class CardProfileLinks extends React.Component {
+//   render() {
+//     const profileLinks = ['twitter', 'linkedin', 'dribbble', 'facebook'];
 
-    const linksList = profileLinks.map((link, index) => (
-      <li key={index}>
-        <a href="#">
-          <i className={'fa fa-' + link} />
-        </a>
+//     const linksList = profileLinks.map((link, index) => (
+//       <li key={index}>
+//         <a href="#">
+//           <i className={'fa fa-' + link} />
+//         </a>
+//       </li>
+//     ));
+
+//     return (
+//       <div className="card-social-links">
+//         <ul className="social-links">{linksList}</ul>
+//       </div>
+//     );
+//   }
+// }
+
+// const ExperienceItem = () => <List experience={experience} />;
+
+// react test list component
+const Title = props => (
+  <div className="list-group">
+    {props.experience.map(item => (
+      <li className="list-group-item" key={item.id}>
+        {item.name}
       </li>
-    ));
-
-    return (
-      <div className="card-social-links">
-        <ul className="social-links">{linksList}</ul>
-      </div>
-    );
-  }
-}
+    ))}
+  </div>
+);
 
 // React component for the backside of the card
 class CardBack extends React.Component {
@@ -85,58 +99,58 @@ class CardBack extends React.Component {
           <form formAction="" className="card-form">
             <div className="row">
               <div className="col-xs-6">
-                <CardInput
+                {/* <CardInput
                   name="contactFirstName"
                   id="contactFirstName"
                   type="text"
                   placeholder="Your first name"
-                />
+                /> */}
               </div>
 
               <div className="col-xs-6">
-                <CardInput
+                {/* <CardInput
                   name="contactLastName"
                   id="contactLastName"
                   type="text"
                   placeholder="Your last name"
-                />
+                /> */}
               </div>
             </div>
 
             <div className="row">
               <div className="col-xs-6">
-                <CardInput
+                {/* <CardInput
                   name="contactEmail"
                   id="contactEmail"
                   type="email"
                   placeholder="Your email address"
-                />
+                /> */}
               </div>
 
               <div className="col-xs-6">
-                <CardInput
+                {/* <CardInput
                   name="contactSubject"
                   id="contactSubject"
                   type="text"
                   placeholder="Subject"
-                />
+                /> */}
               </div>
             </div>
 
-            <CardTextarea
+            {/* <CardTextarea
               name="contactMessage"
               id="contactMessage"
               placeholder="Your message"
-            />
+            /> */}
 
-            <CardBtn
+            {/* <CardBtn
               className="btn btn-primary"
               type="submit"
               value="Send message"
-            />
+            /> */}
           </form>
-
-          <CardProfileLinks />
+          <Title experience={experience} />
+          {/* <CardProfileLinks /> */}
         </div>
       </div>
     );
@@ -158,22 +172,7 @@ const CardFront = props => {
 
             <h1>UI/UX Designer</h1>
 
-            {/* <p>
-              Andrey is driven by turning ideas into scalable and and empowering
-              experiences that solve real life problems.
-            </p>
-
-            <p>
-              He is currently the founder of Dvorak Media. Previously, Andrey
-              was a product designer at Dropbox.
-            </p>
-
-            <p>
-              Over the years, Michael has been priviledged to have worked with
-              Adobe, Evernote, Square and more.
-            </p> */}
-
-            <ExperienceItem />
+            <Title experience={experience} />
           </div>
         </div>
       </div>
