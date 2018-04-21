@@ -116,26 +116,20 @@ const CardBack = props => {
 // React component for the frontside of the card
 const CardFront = props => {
   return (
-    <div className="card-side side-front">
+    <div className="card-side side-front side-front-content">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xs-6">
-            <img src="https://source.unsplash.com/w8YICpz1I10/358x458" />
-          </div>
-
-          <div className="col-xs-6 side-front-content">
-            <h2>{props.name}</h2>
-            <h1>UI/UX Designer</h1>
-
-            {/* <Title experience={experience} /> */}
-          </div>
+          <img src="https://source.unsplash.com/w8YICpz1I10/358x458" />
+        </div>
+        <div className="row">
+          <h2>{props.name}</h2>
         </div>
       </div>
     </div>
   );
 };
 
-const Card = props => {
+export default class Card extends Component {
   // class Card extends Component {
   //   state = {
   //     current: null
@@ -147,29 +141,32 @@ const Card = props => {
   //     };
   // }
 
-  // render() {
-  return (
-    <div className="card-container">
-      <div className="card-body">
-        {experience.map(details => (
-          <CardBack
-            id={details.id}
-            name={details.name}
-            description={details.description}
-          />
-        ))}
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    console.log(experience);
+    return (
+      <div className="card-container">
+        <div className="card-body">
+          {experience.map((details, key) => (
+            <div id={details.name} key={key}>
+              <CardBack
+                id={details.id}
+                name={key}
+                description={details.description}
+              />
 
-        {experience.map(details => (
-          <CardFront
-            id={details.id}
-            name={details.name}
-            description={details.description}
-          />
-        ))}
+              <CardFront
+                id={details.id}
+                name={details.name}
+                description={details.description}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-  // }
-};
-
-export default Card;
+    );
+    // }
+  }
+}
