@@ -14,5 +14,6 @@
   display: inline-block;
   width: -webkit-fill-available;
   box-shadow: 2px 3px 2px #dcdcdc;
+
   /* box-shadow: inset 0px -11px 8px -10px #dcdcdc; */
 }

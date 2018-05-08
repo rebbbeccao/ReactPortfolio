@@ -5,14 +5,15 @@ import './Experience.css';
 import './Card/Card.css';
 import experience from './Card/experience.json';
 
-// const Experience = props => {
+// Component containing flip card sides
+//passes props to CardBack & CardFront
 class Experience extends Component {
   render() {
     return (
       <div className="experience-container">
-        <p>Experience Component </p>
+        <h1>Experience</h1>
         {experience.map((details, key) => (
-          <div className="col-sm-3 " key={key}>
+          <div className="col-sm-4" key={key}>
             <div className="card-container">
               <div className="card-body">
                 <CardBack
@@ -30,7 +31,6 @@ class Experience extends Component {
             </div>
           </div>
         ))}
-        {/* <Card /> */}
       </div>
     );
   }

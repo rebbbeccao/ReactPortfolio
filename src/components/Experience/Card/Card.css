@@ -23,7 +23,7 @@ h1 {
 h2 {
   margin-bottom: 12px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 /*- Card container -*/
@@ -37,8 +37,11 @@ h2 {
 }
 
 img {
-  max-width: 50px;
-  max-height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 160px;
+  max-height: 160px;
 }
 
 /*- Card body -*/
@@ -47,6 +50,11 @@ img {
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.7s linear;
+}
+.row {
+  display: block;
+  float: none;
+  margin-top: 32px;
 }
 
 /*- Flipping the card -*/
@@ -79,10 +87,13 @@ img {
 }
 
 .side-front-content {
-  padding-top: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
+  justify-content: center;
+  padding: 32px;
+  background: linear-gradient(to top right, #ffffff 0%, #e098b7 150%);
 }
+/* .project-name {
+  margin-top: 40px;
+} */
 
 /*- Backside -*/
 .side-back {
@@ -90,78 +101,5 @@ img {
   padding: 32px;
   text-align: center;
   transform: rotateY(180deg);
-}
-
-/*- Form -*/
-.card-form {
-  margin-top: 32px;
-}
-
-.card-form .row + .row,
-.card-form .row + fieldset,
-.card-form fieldset + fieldset {
-  margin-top: 16px;
-}
-
-input,
-textarea {
-  padding: 8px;
-  width: 100%;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #eee;
-  border-left: 0;
-
-  &:focus {
-    outline: 0;
-    border-bottom: 1px solid #0c81f6;
-  }
-}
-
-textarea {
-  max-height: 80px;
-  resize: vertical;
-}
-
-.btn-primary {
-  padding: 8px 16px;
-  font-size: 16px;
-  background-color: #0c81f6;
-  border: none;
-  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
-  transition: background-color 0.25s ease-in, box-shadow 0.25s ease-in;
-
-  &:focus,
-  &:hover {
-    background-color: lighten(#0c81f6, 15%);
-    box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1),
-      0 8px 15px rgba(0, 0, 0, 0.07);
-  }
-}
-
-/*- Social links -*/
-.social-links {
-  padding: 0;
-  margin-top: 32px;
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-
-  li:nth-of-type(n + 2) {
-    margin-left: 24px;
-  }
-
-  a {
-    color: #212121;
-    transition: opacity 0.25s ease-in;
-
-    &:focus,
-    &:hover {
-      opacity: 0.5;
-    }
-  }
-
-  i {
-    font-size: 24px;
-  }
+  background: linear-gradient(to bottom left, #ffffff 0%, #e098b7 150%);
 }

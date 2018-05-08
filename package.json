@@ -9,9 +9,13 @@
     "react-card-flippable": "^1.1.5",
     "react-dom": "^16.3.2",
     "react-flipcard": "^0.2.1",
+    "react-parallax": "^1.7.0",
+    "react-reveal": "^1.2.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "reactstrap": "^5.0.0"
+    "react-scrollreveal": "^1.1.2",
+    "reactstrap": "^5.0.0",
+    "scrollreveal": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
