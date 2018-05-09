@@ -3,18 +3,24 @@
   font-family: 'Sofia', cursive;
   background-image: url('../../assets/subtle_dots.png');
 }
-
-.App-logo {
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
-}
+} */
 
 .App-title {
   font-size: 1.5em;
@@ -31,4 +37,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+.footer-component {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }

@@ -21,19 +21,22 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <Header />
+        <div className="main-container">
+          <Header />
 
-        <Branding />
-        {/* <Parallax speed={0.4} zindex="0" top="0%" image={parallaxImageFlowers}> */}
-        <About />
-        {/* </Parallax> */}
-        <Experience />
+          <Branding />
+          {/* <Parallax speed={0.4} zindex="0" top="0%" image={parallaxImageFlowers}> */}
+          <About />
+          {/* </Parallax> */}
+          <Experience />
 
-        <Contact />
+          <Contact />
 
-        <Tech />
-
-        <Footer />
+          <Tech />
+        </div>
+        <div className="footer-component">
+          <Footer />
+        </div>
       </div>
     );
   }
