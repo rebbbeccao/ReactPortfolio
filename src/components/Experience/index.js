@@ -11,7 +11,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience-container">
-        <h1>Experience</h1>
+        <h1 className="experience">Experience</h1>
         {experience.map((details, key) => (
           <div className="col-sm-4" key={key}>
             <div className="card-container">

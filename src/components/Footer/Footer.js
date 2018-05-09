@@ -20,7 +20,8 @@ const style = {
   },
   footerStamp: {
     margin: 0,
-    color: '#000000'
+    color: '#000000',
+    display: 'block'
     // fontFamily: '"Sofia", cursive'
   },
   heartIcon: {
@@ -35,6 +36,7 @@ const Footer = props => (
       <Grid>
         <Grid.Row style={style.heartIcon}>
           <Header
+            className="p"
             inverted
             as="h4"
             content="Made with"
@@ -42,6 +44,7 @@ const Footer = props => (
           />
           <Icon name="empty heart" size="big" style={style.footerStamp} />
           <Header
+            className="p"
             inverted
             as="h4"
             content="by Rebecca A. Olson"
