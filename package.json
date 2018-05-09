@@ -15,7 +15,8 @@
     "react-scripts": "1.1.4",
     "react-scrollreveal": "^1.1.2",
     "reactstrap": "^5.0.0",
-    "scrollreveal": "^3.4.0"
+    "scrollreveal": "^3.4.0",
+    "semantic-ui-react": "^0.80.0"
   },
   "scripts": {
     "start": "react-scripts start",

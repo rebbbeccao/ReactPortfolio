@@ -5,6 +5,39 @@ body {
 }
 html,
 body {
+  background-color: #fae8f3;
+
   height: 100%;
   position: relative;
+}
+
+#footer-container {
+  align-content: center;
+  height: 35px;
+  padding: 0;
+  font-weight: 300;
+  background-color: #fae8f3;
+  opacity: 0.8;
+}
+.footer-content {
+  font-size: 10px;
+  font-family: 'Sofia', cursive;
+}
+
+#footer-content-a {
+  display: inline-block;
+  margin-right: 0;
+  align-content: right;
+}
+#footer-content-b {
+  margin-left: 0;
+}
+#made-with {
+  margin: auto;
+  width: 400px;
+}
+#heart-icon {
+  height: 18px;
+  width: auto;
+  margin: auto 0px;
 }
