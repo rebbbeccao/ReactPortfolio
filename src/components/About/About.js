@@ -29,9 +29,8 @@ const About = props => {
             looking for a role that encourages total immersion of life as a
             Javascript or MERN stack Web Developer.
           </p>
-          <p>It's the 21st century a brain is an accessory, right?</p>
 
-          <p>Learn More</p>
+          <p>It's the 21st century a brain is an accessory, right?</p>
         </div>
       </div>
     </div>

@@ -21,6 +21,7 @@ class Experience extends Component {
                   name={details.name}
                   description={details.description}
                   projectImage={details.projectImage}
+                  projectLink={details.projectLink}
                 />
 
                 <CardFront
@@ -28,6 +29,7 @@ class Experience extends Component {
                   name={details.name}
                   description={details.description}
                   projectImage={details.projectImage}
+                  projectLink={details.projectLink}
                 />
               </div>
             </div>

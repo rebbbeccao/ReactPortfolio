@@ -18,6 +18,7 @@ export default class Card extends Component {
                 name={key}
                 description={details.description}
                 projectImage={details.projectImage}
+                projectLink={details.projectLink}
               />
 
               <CardFront
@@ -25,6 +26,7 @@ export default class Card extends Component {
                 name={details.name}
                 description={details.description}
                 projectImage={details.projectImage}
+                projectLink={details.projectLink}
               />
             </div>
           ))}
