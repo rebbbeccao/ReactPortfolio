@@ -13,7 +13,7 @@ export default class CardFront extends Component {
             <h2>{this.props.name}</h2>
           </div>
           <div className="row">
-            <img src="https://source.unsplash.com/w8YICpz1I10/358x458" />
+            <img src={this.props.projectImage} />
           </div>
         </div>
       </div>

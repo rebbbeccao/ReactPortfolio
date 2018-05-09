@@ -30,7 +30,8 @@ const About = props => {
             Javascript or MERN stack Web Developer.
           </p>
           <p>It's the 21st century a brain is an accessory, right?</p>
-          <p className="learn-more">Learn More</p>
+
+          <p>Learn More</p>
         </div>
       </div>
     </div>

@@ -20,12 +20,14 @@ class Experience extends Component {
                   id={details.id}
                   name={details.name}
                   description={details.description}
+                  projectImage={details.projectImage}
                 />
 
                 <CardFront
                   id={details.id}
                   name={details.name}
                   description={details.description}
+                  projectImage={details.projectImage}
                 />
               </div>
             </div>

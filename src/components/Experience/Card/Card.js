@@ -17,12 +17,14 @@ export default class Card extends Component {
                 id={details.id}
                 name={key}
                 description={details.description}
+                projectImage={details.projectImage}
               />
 
               <CardFront
                 id={details.id}
                 name={details.name}
                 description={details.description}
+                projectImage={details.projectImage}
               />
             </div>
           ))}
