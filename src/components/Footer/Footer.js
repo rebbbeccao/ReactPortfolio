@@ -7,33 +7,48 @@ import {
   List,
   Segment
 } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
 import './Footer.css';
 
 const style = {
   footerContainer: {
-    backgroundColor: 'rgb(0, 0, 0)',
-    padding: '2em 0em'
+    backgroundColor: '#fae8f3',
+    color: '#000000'
   },
   footerList: {
     color: 'rgb(21, 221, 98)'
+  },
+  footerStamp: {
+    margin: 0,
+    color: '#000000'
+    // fontFamily: '"Sofia", cursive'
+  },
+  heartIcon: {
+    float: 'none',
+    textAlign: 'center'
   }
 };
 
 const Footer = props => (
   <Segment inverted vertical style={style.footerContainer}>
     <Container className="footer">
-      <Grid divided inverted stackable>
-        <Grid.Row>
-          <Grid.Column width={5}>
-            <Header inverted as="h4" content="About" />
-            <List link inverted>
-              <List.Item as="a">Contact Us</List.Item>
-              <List.Item as="a">FAQ</List.Item>
-              <List.Item as="a">Customer Service</List.Item>
-              <List.Item as="a">How TNT works</List.Item>
-              <List.Item as="a">Payment Method</List.Item>
-            </List>
-          </Grid.Column>
+      <Grid>
+        <Grid.Row style={style.heartIcon}>
+          <Header
+            inverted
+            as="h4"
+            content="Made with"
+            style={style.footerStamp}
+          />
+          <Icon name="empty heart" size="big" style={style.footerStamp} />
+          <Header
+            inverted
+            as="h4"
+            content="by Rebecca A. Olson"
+            style={style.footerStamp}
+          />
+        </Grid.Row>
+        {/* <Grid.Row>
           <Grid.Column width={5}>
             <Header inverted as="h4" content="Meet Our TEAM" />
             <List link inverted>
@@ -70,7 +85,7 @@ const Footer = props => (
               </List.Item>
             </List>
           </Grid.Column>
-        </Grid.Row>
+        </Grid.Row> */}
       </Grid>
     </Container>
   </Segment>

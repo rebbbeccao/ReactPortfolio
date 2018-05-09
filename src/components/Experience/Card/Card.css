@@ -25,7 +25,7 @@ h2 {
   margin-bottom: 12px;
   font-size: 24px;
   font-weight: 50;
-  /* font-family: 'Poiret One', cursive; */
+  font-family: 'Poiret One', cursive;
 }
 
 /*- Card container -*/
@@ -92,9 +92,12 @@ img {
   justify-content: center;
   background: linear-gradient(to top right, #ffffff 0%, #e098b7 150%);
 }
-/* .project-name {
-  margin-top: 40px;
-} */
+.front-title,
+.back-title {
+  font-family: 'Sofia', cursive;
+  color: rgb(82, 80, 80);
+  text-shadow: 1px 1px lightgrey;
+}
 
 /*- Backside -*/
 

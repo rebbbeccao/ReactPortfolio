@@ -28,10 +28,11 @@ body {
   display: inline-block;
   margin-right: 0;
   align-content: right;
+  display: inline;
 }
-#footer-content-b {
+/* #footer-content-b {
   margin-left: 0;
-}
+} */
 #made-with {
   margin: auto;
   width: 400px;
