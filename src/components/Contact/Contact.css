@@ -1,5 +1,5 @@
 .contact-content {
-  height: 420px;
+  height: 442px;
   margin-top: 100px;
 }
 
@@ -42,4 +42,20 @@
   margin: 0 auto;
   height: 100%;
   width: auto;
+}
+.hovering-div {
+  background-color: #ffeae9;
+  width: 325px;
+  height: 125px;
+}
+.location {
+  color: #000000;
+  font-size: 22px;
+  padding-top: 12px;
+  margin-bottom: 0;
+}
+.location-2 {
+  /* color: #f1ede2; */
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
 }

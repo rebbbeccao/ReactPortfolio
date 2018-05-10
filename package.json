@@ -5,6 +5,7 @@
   "dependencies": {
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^0.32.1",
     "react-card-flippable": "^1.1.5",
     "react-dom": "^16.3.2",
