@@ -40,7 +40,7 @@
     "id": 5,
     "name": "LIRI Node App",
     "description":
-      "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.",
+      "LIRI is like iPhone's SIRI, except it is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.",
     "projectImage":
       "https://lh3.googleusercontent.com/Nc6i4S7N--llL-l5O8WCdd5glR7TUv7KJeeiPfUYYHsIyt4ZSiXbMIRCgPl8ScwCMW6IDG19JtAywOHWOVKZcCR-rGR-KiY7cl4x723kVtOS7jaYeFKl9_gi6VEgDv-YsStQ19CXEx0Q_1q4toQcfpbuDurhHXrCYdB8I3dqX9noDmls62RHwXw408MtDaJcGDy_KMSJ-ZZk0pRs4DB3EExzpBGGNyiE-y_B8bDIQbB0Xlj2l5B62I05AVHlR-vIQAqOXL7ZvFQOkBzQhv08mhm6ASusOK3bFULxEMu67SDJpiN-dUYzktKC3kOzCogIGWBOFN5tGVqlZOnugq99IHuetKV6gMlh31obKFR8G1fjCC8my1jRpnvdx0XEq8RPGIBZM0m_LAcdfXg9z4zh3LJbLDpnfULINzvoMD0DJQhdBAqgaCk_EihoeI86qoFN1Zm8zUOASUYyVMa2kKIlOrIEjAjrIjfuw2lSxzv0FzX5vHg4ZQChr3Fqd0qRRBOyoFOckXDG6Y0R96UsSAxt0U9UJtm089mhCY9-mKoshTLp4HIhD4MU5KZio4NlmEvd3CFSV0Z0vjd-zS5opkLIaWF9-QaBgmnIFMAoXQ=w1139-h758-no",
     "projectLink": "https://github.com/rebbbeccao/FriendFinder-Express-App"

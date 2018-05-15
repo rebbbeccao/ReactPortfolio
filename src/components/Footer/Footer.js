@@ -12,21 +12,22 @@ import './Footer.css';
 
 const style = {
   footerContainer: {
-    backgroundColor: '#fae8f3',
-    color: '#000000'
-  },
-  footerList: {
-    color: 'rgb(21, 221, 98)'
+    backgroundColor: '#FFF0F2',
+    color: '#000000',
+    height: '100'
   },
   footerStamp: {
-    margin: 0,
+    marginRight: 0,
     color: '#000000',
-    display: 'block'
-    // fontFamily: '"Sofia", cursive'
+    display: 'block',
+    width: '150px'
   },
-  heartIcon: {
-    float: 'none',
-    textAlign: 'center'
+  container: {},
+  p: {
+    fontFamily: '"Poiret One", cursive',
+    color: '#000000',
+    display: 'block',
+    fontSize: '18px'
   }
 };
 
@@ -34,61 +35,14 @@ const Footer = props => (
   <Segment inverted vertical style={style.footerContainer}>
     <Container className="footer">
       <Grid>
-        <Grid.Row style={style.heartIcon}>
+        <div className="row" style={style.footerStamp}>
           <Header
-            className="p"
+            style={style.p}
             inverted
             as="h4"
-            content="Made with"
-            style={style.footerStamp}
+            content="&copy; Copyright ♡ Rebecca A. Olson"
           />
-          <Icon name="empty heart" size="big" style={style.footerStamp} />
-          <Header
-            className="p"
-            inverted
-            as="h4"
-            content="by Rebecca A. Olson"
-            style={style.footerStamp}
-          />
-        </Grid.Row>
-        {/* <Grid.Row>
-          <Grid.Column width={5}>
-            <Header inverted as="h4" content="Meet Our TEAM" />
-            <List link inverted>
-              <List.Item
-                content={<a href="https://github.com/mtoasis">Julian</a>}
-              />
-              <List.Item
-                content={
-                  <a href="https://github.com/codechennerator">Nathan</a>
-                }
-              />
-              <List.Item
-                content={<a href="https://github.com/akaryanreynolds">Ryan</a>}
-              />
-              <List.Item
-                content={<a href="https://github.com/yangmeeso">Meeso</a>}
-              />
-              <List.Item
-                content={<a href="https://github.com/liuzhongiceman">Zhong</a>}
-              />
-            </List>
-          </Grid.Column>
-          <Grid.Column width={5}>
-            <Header inverted as="h4" content="Follow Us" />
-            <List link inverted>
-              <List.Item as="a">
-                <Icon name="twitter" size="big" style={style.footerList} />
-              </List.Item>
-              <List.Item as="a">
-                <Icon name="facebook" size="big" style={style.footerList} />
-              </List.Item>
-              <List.Item as="a">
-                <Icon name="instagram" size="big" style={style.footerList} />
-              </List.Item>
-            </List>
-          </Grid.Column>
-        </Grid.Row> */}
+        </div>
       </Grid>
     </Container>
   </Segment>

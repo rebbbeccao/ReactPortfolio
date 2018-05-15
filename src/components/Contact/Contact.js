@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './Contact.css';
 
 class Contact extends Component {
@@ -62,7 +61,7 @@ class Contact extends Component {
                   )}
                 </div>
                 <div className="col-sm-3">
-                  <a href="#">
+                  <a href="mailto:rebbbeccao@gmail.com">
                     <img
                       className="contact-icon"
                       src="https://lh3.googleusercontent.com/FFzLvYecvNlUFXsNsfPr1M_AJGLHcvfHJXOnEFQoOHUY6VkK_yiD-eOQF1nHjK5t9sj6_gDIfI8nhsscuDm8GEfNha8X4ZN86ZgVlGZIcYfSnuGgdv5_gU8EczkmK4yl_qiOn4Gzn4DxyMkNpwffQIjWG3YOp4EcmXB3C4Dzwbks8up71cRPm0gSaOUvJ9BVNkWDSiqlaHg9xGlAHCIkgXhJixfEOfB-72tv3brhOP4D3_MRvr4Wgoz57JMFtywE1gfpOUmJSsGaYySTlqNCfD5-fxPyBXlwDiM7w_uFSqS7SD5nDoV_S5c-v0TRm0MISAM46UNjhFvMVm5caYiJH51lQJYgX46Up5ow6E5TvHEh3ODncA1MZcMXa7m2_SRCSEbtFOS50jiPCFuC6T8xO7lhaWfwCVbBs3hKoOl7sucr3LzICrm51gCYMl4nYRI_z4gWmP479smSwmbRkTT7kjAfX5F9BJOtNKlQZXO_Fw5OY1wp3rqRpRkHmlay1xh8_tAxCrF9SFrCUg7HCKsgelzScoHHNM4Gnx62-4skbTVhZXNlyNRJfDOBI6P2nDwQ72mFMLgHJ0LadrxgTCkfpX0Y4_hRGwsh1uh5Jg=s256-no"
@@ -71,7 +70,7 @@ class Contact extends Component {
                   </a>
                 </div>
                 <div className="col-sm-3">
-                  <a href="#">
+                  <a href="https://github.com/rebbbeccao">
                     <img
                       className="contact-icon"
                       src="https://lh3.googleusercontent.com/gutAZiD4Gq2X4NryvtcZXdbgUj6XsCZ9hH1F4IubMsRh2hagpjfvHEqO6H5YJiPesHCxYjha-dEaulErNmUA3a2IWO4f6mWhBifYJNw5c11VrUHd3dCOtE3InG1EGMnqeLoMMn7xJApX_N8SP9462ArIjVjFHAH_-kuv3ibI_1uIB1E4hur0-mZaHJy6p8GqanPC91T4-zs6DMvysBkEZBJJ9VOf1HLNrohIcpoQvcTBlvRtafR8zYNDllOgtsCPwndGPDJ6uUZhV5-oiYJfP_eNCXOpDvSIUobMUrLn0S21BdHHR9EejCMqrEN-TkPmamaQEdPUNalUITuNCcxGJ6i_qh0esSK7baKxAw3Pe8psNFVy8FT-LKENmjMgbc7OUyrmA2zwNXlk-zt2WDfpWi6if7Nvq9KLenw_2AkuZ-7YwCG9DpgoMm9TuzbvsQ2gV-cQp-zipJFK2Byvhx2S7JKlnRFE0lTh21iSibWDFcFsUe0tb4Bo6JbZAmSvXvjDEVcz9a4H93zZSqfsqJCcEo5iP1cMhdmsI70L7hrrbpHCRuSbhUzTpRmBy1RODvLKxRgpGRqXr9EV-d6_-EOVU8ZQIhsoFlTywS8B0w=s256-no"
@@ -80,11 +79,11 @@ class Contact extends Component {
                   </a>
                 </div>
                 <div className="col-sm-3">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/rebeccaao/">
                     <img
                       className="contact-icon"
-                      src="https://lh3.googleusercontent.com/l6qWFRvrUxOUpCU8SUEK_B0yLCHur6Gidf0BVTRBS3MF8RV73gjcedOPzrGyeFIPexq9WKVC1QQjeZO577PkGZRUe5Z5vn-FfOFGtnLLTnSWv1BfiREuSmfQJMrWq7F4zMsgeuiA5IUaWi3bQvrfTeO4qwQw5yToQ_rSdNw3XFIbur26Xnm8mlMgqQZECtTzUf6j8dNYKzGDOucHZEiAT7u8HrL5mvb4OoEXsRVLcuTdn8ZXKgjaWRPKJ1AZzePhJEgM1b99w0Jjb1PI_kBPVEyMyZVUXnYg1sxtpnTEwuIcETjg802pD8pSpfqM4VfT89pD_HNags9AOF_JBKIHzSpzcVatwQRZ87O-VpqZ3292f3xgynX7SfUj6Ccop-8yHgGxbJzv1Clutgd7vYGyIARVrX4u6kAUE8GZ3y0TKau5cr0k9BZ7KIpGTu76XOdgpVCZkFRMjAVOVJw00y9V6Yzuxv8UJbALd6UcG6giKNDWrwVqVEpHu6k_r5Gm_-Xh2NeQIV-MOEYCFM6aXHMc6_pXDHEr-3fkcytEQKgEtmLRK26IRal7fKLs2b1RKYxJ6FvIDiXdWO_8b_wI87F0C7nIM6wACFZ9TykSpA=s256-no"
-                      alt="facebook"
+                      src="https://lh3.googleusercontent.com/M1DoPmRtwZdJ2npYbPgfvBc1WXPDLbc-ne1RgPm_BKAKvgT3P9UP-Gn9SySZN8d91_yIRjF_ZD1qo7pq6TbuJ_svYbz69Et1B2ZJkF6be1V5c0nGC369TRoTLIqhjhq1wSB3qsSu0YrJf_-gT-7yWoln6p20_smLpL2BoVl3TJyqReQSXxtsf8ouaZMxF5js8TOf0vWYskaNMgS5zg-9ZsdRSG7yzjin5CiEfJo7tAvkg2wMkSg4jYcjFLguJZbF8eyHS_ygqXnCurTUM1858wEnNCqpWVf4pIjgYqBX1fc4QROXncGkOg3MmC5f0zkcNnLxVfxA8Ue7kc3srXOgv6DMr-I1IQrpSgk99e0eSiD1iaC0Pl5SCPdpfMXxy_kQyWSYcOyG_TjcnTsNa_oaIIuMEriwZ5rIt2gJdY61NvtFo38O1GfhQTFimoXnPRFKBDRmjOxZhykqEsSEF5fsm1naWStD8I0viwr4gU5KwUb_ZLEWNGgcSvAYv2AJoP_XT_Vsvw3Q1Ii4DhaoMJA4Bbc1K86T4tE7jlF-Ehh9ftoODME1VvPUvclKwn4Lo6obKGyVENT7KENCxFtHD1mAgHSgShb_C0rynAzcGg=s256-no"
+                      alt="linkedIn"
                     />
                   </a>
                 </div>

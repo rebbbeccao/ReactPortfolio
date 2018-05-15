@@ -90,7 +90,7 @@ img {
 
 .side-front-content {
   justify-content: center;
-  background: linear-gradient(to top right, #ffffff 0%, #e098b7 150%);
+  background: linear-gradient(to top right, #ffffff 0%, #ffdade 150%);
 }
 .front-title,
 .back-title {
@@ -106,7 +106,7 @@ img {
   padding: 10px 20px;
   text-align: center;
   transform: rotateY(180deg);
-  background: linear-gradient(to bottom left, #ffffff 0%, #e098b7 150%);
+  background: linear-gradient(to bottom left, #ffffff 0%, #ffdade 150%);
 }
 .description {
   margin-top: auto;
