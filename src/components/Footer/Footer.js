@@ -8,13 +8,12 @@ import {
   Segment
 } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
-import './Footer.css';
 
 const style = {
   footerContainer: {
     backgroundColor: '#FFF0F2',
     color: '#000000',
-    height: '100'
+    height: '20'
   },
   footerStamp: {
     marginRight: 0,

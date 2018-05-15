@@ -45,8 +45,9 @@
 }
 .hovering-div {
   background-color: #fff0f2;
+
+  height: 111px;
   width: 325px;
-  height: 125px;
 }
 .location {
   color: #000000;
