@@ -4,7 +4,7 @@
     "name": "FriendFinder Express App",
     "description":
       "This full-stack site will take in users' results from a survey, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. Built with Express and Javascript",
-    "projectImage": "../../../assets/friendFinder.jpg",
+    "projectImage": "/assets/friendfinder.jpg",
     "projectLink": "https://github.com/rebbbeccao/FriendFinder-Express-App"
   },
   {
