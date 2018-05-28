@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Sofia', cursive;
-  background-image: url('../../assets/subtle_dots.png');
+  background-image: url('/assets/subtle_dots.png');
 }
 .main-container {
   min-height: 100vh; /* will cover the 100% of viewport */
