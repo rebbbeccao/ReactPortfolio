@@ -11,6 +11,7 @@
     "react-mailto": "^0.4.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "react-scroll-up-button": "^1.5.11",
     "reactstrap": "^5.0.0",
     "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.80.0",
