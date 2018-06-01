@@ -5,40 +5,22 @@ import './Header.css';
 
 const Header = props => {
   return (
-    // <div className="container navbar">
-    //   <div className="row">
-    //     <div className="col-sm-3">
-    //       <a>About</a>
-    //     </div>
-    //     <div className="col-sm-3">
-    //       <a>Contact</a>
-    //     </div>
-    //     <div className="col-sm-3">
-    //       <a>Experience</a>
-    //     </div>
-    //     <div className="col-sm-3">
-    //       <a>News</a>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="header-container">
       <Navbar className="navbar">
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="nav">
-            <NavItem className="navbar-item" eventKey={1} href="#">
+            <NavItem className="navbar-item" eventKey={1} href="#about-id">
               About
             </NavItem>
-            <NavItem className="navbar-item" eventKey={2} href="#">
+            <NavItem className="navbar-item" eventKey={2} href="#contact-id">
               Contact
             </NavItem>
-            <NavItem className="navbar-item" eventKey={3} href="#">
-              Projects
-            </NavItem>
-            <NavItem className="navbar-item" eventKey={4} href="#">
+
+            <NavItem className="navbar-item" eventKey={3} href="#experience-id">
               Experience
             </NavItem>
-            <NavItem className="navbar-item" eventKey={5} href="#">
+            <NavItem className="navbar-item" eventKey={4} href="#">
               Latest
             </NavItem>
           </Nav>

@@ -21,7 +21,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="contact-container">
+      <div className="contact-container" id="contact-id">
         <div className="container contact-content">
           <div className="row">
             <h1 className="contact-title">Let's Connect!</h1>
