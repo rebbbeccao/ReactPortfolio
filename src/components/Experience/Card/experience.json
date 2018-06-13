@@ -5,33 +5,30 @@
     "description":
       "This full-stack site will take in users' results from a survey, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. Built with Express and Javascript",
     "projectImage": "/assets/friendfinder.jpg",
-    "projectLink": "https://github.com/rebbbeccao/FriendFinder-Express-App"
+    "projectLink": "https://friendfinderrapp.herokuapp.com/"
   },
   {
     "id": 2,
     "name": "Becca's Burgers",
     "description":
       "A restaurant app that lets users input the names of burgers they'd like to eat. Built with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)",
-    "projectImage":
-      "https://lh3.googleusercontent.com/bGgzeu010Vj7B0TpBom1obvyxzNkumsPQyf2Oir4n0Bs7-QEAcL48pqRgGq9ZCdAh-aY6n8zJ2m7acyQ0b5pwyg0yZfF1pEDmbqnY0rS0nXB4hji4LO4qFTxv5CrzqENdVlOqEPOkNx6KMXFZj6QQjgYnaMtVnCtBjbjzwbXlhwgYj76WwH_xlp7qHN-C70mQou1wsFvD3v2Y_XFB3HImKbC6uuEXhT6s7UuKA1WlGEDgFiHrEkoJNNzpynDksb4GSfJLPR34OBkcJ7FgH8raUH8NySp2xinSxMS8pEdCjybizQ459lQlyy_kZApyPeClPYCPEuCyHhE0_TXA2AbSIlE-YdpQPy4J-TaihXmG7vBVoWNrv3Jd67OOBOOLi2Arimk5ZEtcfji9bnnTX2NMFv-eyGs42h4IT47T1zshuahsJAaWQEZtOgh6_guKkuM1fj40QKGSlw2wTD9s0gks_4KCXIZRRGzFIkkTB4zwsXjwNF2BijIkd9uKtKdf4W0KL2CYdV3mwk-jYj2dkpPl_1w37cii62UkgApqgUlZKChnvpC6Puh9P9GVBMDt3S7RdSzXYJGsU5GKBGhv500TY5vb0K1JNrjvwCPuA=w1138-h758-no",
-    "projectLink": "https://github.com/rebbbeccao/Beccas-Burgers"
+    "projectImage": "/assets/beccasBurgers.jpg",
+    "projectLink": "https://beccas-burgers.herokuapp.com/"
   },
   {
     "id": 3,
     "name": "NewzNotes Mongo Scraper",
     "description":
       "A Web App that lets users view and leave comments on the latest news. Built with Mongo, Cheerio, Express, Javascript",
-    "projectImage":
-      "https://lh3.googleusercontent.com/cHRDJct8DIl9lU-ZjusIfuToRKpRqmTi0cmFTkTfvJD775bSfHL-pxuP2L9NyvdKYIfZtCnOIeeYTHeyFyHafOJecCitcMcfKWwfZtWgF0v6fwuohSZg5sfkIvId8YMDfyM1T-ZmQzyD_nI0WV33wFs3WseLEhUzDrYnOMOS4BsnQH59RjYhdjdPAs5FRPEuUMAYn7_3CL0ln1F6PBEWl94i7wo96nQYRQzSlQNWC0sWe3LKSIJXlqvi4_QkCroJtHdjYiZ0wPRZ-bZqtYBs4dWrER04OaGzRz0pHIK-mbUYt_20vCTCqNKhuJPCXHEPNDee4hk6LA1aEoS9DSCIhW8DIH7C7_uMrRiaETkmVgTCMaNaP5ZrBkJ1JBQenX0_sAbaK5MKsjvfu2GscO1Nm-vd25cmalMadnZnS5aCdXsLyBx9L9gp21kxEyZctg5G2g6LjimU0o4JP0lfY_oc5QPJtZCcMiE1i2AKvl3bup6git0ykej12uddpN8Dv_JnZNGKzdMSLm9869b6uGAbEOyHE2sWKUrp0gbxQEXWAKbnwCfsrN5KbXNlPhZuMIgXuqqJKmTveO009260jQbJ5Ru_Zf7egA43OCHNUjAs3FNjq-YmT8Ac7wnTOIPZ20cCNKA9cfSuUU0cyxkjV_UPJZWJG1ggByk=w1205-h803-no",
-    "projectLink": "https://github.com/rebbbeccao/NewzNotes-Mongo-Scraper"
+    "projectImage": "/assets/newzNotes.jpg",
+    "projectLink": "https://newznotes.herokuapp.com/"
   },
   {
     "id": 4,
     "name": "Bamazon Node Storefront",
     "description":
       "An Amazon-like storefront CLI App. Built using Node.js using MySQL and Javascript",
-    "projectImage":
-      "https://lh3.googleusercontent.com/_2dt-mnTi-33QvmDIEpv14Y3wvCUk3VrcFiZmlnKROkRxeSE3-DOH8HMnJQER4MRt21m7wdzjfGb6e-iuKhHI9BjIXZ-Viks8d2louDSrM3v5nKx1mvxZC94F5col2NfogOBmcfVTS8F3YA1oQ3_RWDt-jBsQolg-1XRSQfK78eBnxSwSa2HrRDa2Hg8rQwzOd00yXhyeogyAgu8Aec4tE6rD-07CeiFvYoQMvCJxqNOMzBGjv-GvMhUbpe8tsYRUsZPkz1rS4zpf47LNtlw3SG-CGpOqiZEhxGee7k8RNYuy-T-u-oPCIHKM5VMKQO-abndw92jv_VDPYXG3E2efck-GPgIyfccgOz8EM-X5kfN_G_pa9OG7eB1EpvWYPtouIX9AosQs4ge9_3dF_IvxQ202WqY7vqzSJUzD8GHownPA0ILUOg3rnqYJW-_nn8xSALOt-VSjdbYV_tbRzrXKAh4coJkf2m1k37WdXsU4Qn4L041BaBAS5KmddzMVLxo3Em3Oc9y4VGFMp8daQyvwfgDLnxmjHs4kpn9gM-kWhq_CN5Rr7quQr4co2PzL5_79UmNMhatWTZvNv9UklR4vjh3wNqavgPG64QlwQ=w1139-h758-no",
+    "projectImage": "/assets/bamazon.jpg",
 
     "projectLink": "https://github.com/rebbbeccao/bamazon-node-storefront"
   },
@@ -40,8 +37,7 @@
     "name": "LIRI Node App",
     "description":
       "LIRI is like iPhone's SIRI, except it is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.",
-    "projectImage":
-      "https://lh3.googleusercontent.com/Nc6i4S7N--llL-l5O8WCdd5glR7TUv7KJeeiPfUYYHsIyt4ZSiXbMIRCgPl8ScwCMW6IDG19JtAywOHWOVKZcCR-rGR-KiY7cl4x723kVtOS7jaYeFKl9_gi6VEgDv-YsStQ19CXEx0Q_1q4toQcfpbuDurhHXrCYdB8I3dqX9noDmls62RHwXw408MtDaJcGDy_KMSJ-ZZk0pRs4DB3EExzpBGGNyiE-y_B8bDIQbB0Xlj2l5B62I05AVHlR-vIQAqOXL7ZvFQOkBzQhv08mhm6ASusOK3bFULxEMu67SDJpiN-dUYzktKC3kOzCogIGWBOFN5tGVqlZOnugq99IHuetKV6gMlh31obKFR8G1fjCC8my1jRpnvdx0XEq8RPGIBZM0m_LAcdfXg9z4zh3LJbLDpnfULINzvoMD0DJQhdBAqgaCk_EihoeI86qoFN1Zm8zUOASUYyVMa2kKIlOrIEjAjrIjfuw2lSxzv0FzX5vHg4ZQChr3Fqd0qRRBOyoFOckXDG6Y0R96UsSAxt0U9UJtm089mhCY9-mKoshTLp4HIhD4MU5KZio4NlmEvd3CFSV0Z0vjd-zS5opkLIaWF9-QaBgmnIFMAoXQ=w1139-h758-no",
+    "projectImage": "/assets/liriNodeApp.jpg",
     "projectLink": "https://github.com/rebbbeccao/liri-node-app"
   },
   {
@@ -49,8 +45,7 @@
     "name": "Britney Spears Top Hits Hangman",
     "description":
       "A Britney Spears themed, command-line Hangman game using javascript constructor functions.",
-    "projectImage":
-      "https://lh3.googleusercontent.com/d7s8De2heTmP8tirv1fyfJIqcNbsjz6wrxN_niHAhnOQThE7rGPsR6raPATg3g9QboY0AeL8nlXQbe9Z0TUNajVjHIeCIB5_XNXGz1xyk8PTnb3qdC8q--JuRMcdsT83uPv9KC2yNmH5u1ses3f3G1M7igrg3Ga9_teUr3bZ-jt_DQsGob9lqhJDwUgfPzRwAYDR8s7LcqOGTOLBY7YzWaj1vgevpZ-LexdI1Rj6BZkEFDxf14hSuSwqUV96VnGGN1axZdYgmtVBnRgeUojaAK6ebK4eQ5aX-fOk-P2vuPFpD8KYgNSmsojPFdsjrCTUQyyIl7b2xtTFTjF04y2tPxi1s9odikIyPsOMvQHAfs_Myzh79XAS9kKCpP5Zj_UTkE22V5mJgAbqqPBcVx2u73uxkElDdqDJ98oKEn2FBzw_CzzP6h67sV-3HlbDCly2rq01DXpPFj9lCFij-iNJsbm-tkrZuaXywCMBuJGVwqiX_LuH4XouKG8qAaZUQfJYo6YGIQBkf4p1foMeoz6XXQLoLVc_7OApuC-Tu6YDhczWH6yxArcktYqAXo-t6FodzOpAD1KvU3KOuoSGD3znrnZDE1VGsHS4MPlx7w=w304-h202-no",
+    "projectImage": "/assets/constructorHangman.jpg",
     "projectLink":
       "https://github.com/rebbbeccao/Constructor-Hangman-BritneySpears-Hits"
   }
