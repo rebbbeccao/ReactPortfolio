@@ -8,6 +8,14 @@ import Tech from '../Technologies';
 import Footer from '../Footer';
 import ScrollUpButton from 'react-scroll-up-button';
 import './App.css';
+// import styled from 'styled-components';
+// import { device } from '../../containers/responsive_utilities.js';
+
+// const AppWrapper = styled.div`
+//   @media ${device.laptop} {
+//     width: 1024px;
+//   }
+// `;
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +29,7 @@ class App extends Component {
       }
     };
     return (
+      // <AppWrapper>
       <div className="App">
         <ScrollUpButton
           ContainerClassName="ScrollUpButton__Container"
@@ -43,6 +52,7 @@ class App extends Component {
 
         <Footer />
       </div>
+      // </AppWrapper>
     );
   }
 }

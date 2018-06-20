@@ -10,17 +10,6 @@
   position: relative;
   padding-bottom: 100px; /* height of your footer */
 }
-/* .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-} */
-
-/* .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-} */
 
 .App-title {
   font-size: 1.5em;
@@ -30,11 +19,10 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* MEDIA  QUERY  CSS */
+/* ----------------- @media only screen and (max-width: 768px) {
+  .App {
+    width: 768px;
+    float: none;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
