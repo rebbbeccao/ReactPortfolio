@@ -60,3 +60,22 @@
   font-family: 'Poiret One', cursive;
   font-size: 20px;
 }
+
+/* MEDIA  QUERY  CSS */
+/* ----------------- */
+@media only screen and (max-width: 980px) {
+  .me-pic {
+    width: 265px;
+    height: 265px;
+    margin-left: 0;
+  }
+
+  .contact-icon {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+  }
+  .contact-content {
+    height: 400px;
+  }
+}

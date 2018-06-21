@@ -33,7 +33,7 @@
   width: 95%;
   margin-top: 25px;
 }
-p {
+.aboutP {
   padding: 3px;
   margin-bottom: 1px;
   font-size: 21px;
@@ -42,8 +42,20 @@ p {
 
 /* MEDIA  QUERY  CSS */
 /* ----------------- */
-@media only screen and (max-width: 900px) {
-  p {
-    /* color: red; */
+@media only screen and (max-width: 980px) {
+  .about-container {
+    height: 710px;
+    margin-bottom: 70px;
+  }
+  .text-cushion {
+    height: 540px;
+  }
+  .text {
+    height: 490px;
+    width: 92%;
+  }
+  .aboutP {
+    font-size: 18px;
+    margin-top: 8px;
   }
 }

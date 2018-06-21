@@ -10,3 +10,11 @@
   font-family: 'Poiret One', cursive;
   font-size: 42px;
 }
+
+/* MEDIA  QUERY  CSS */
+/* ----------------- */
+@media only screen and (max-width: 980px) {
+  .experience-container {
+    height: 732px;
+  }
+}

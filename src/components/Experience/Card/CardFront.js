@@ -10,7 +10,7 @@ export default class CardFront extends Component {
       <div className="card-side side-front side-front-content">
         <div className="container-fluid">
           <div className="row">
-            <img src={this.props.projectImage} />
+            <img className="project-image" src={this.props.projectImage} />
           </div>
           <div className="row project-name">
             <h2 className="front-title">{this.props.name}</h2>
