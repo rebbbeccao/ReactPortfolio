@@ -6,3 +6,16 @@
   width: auto;
   padding: 15px;
 }
+
+/* MEDIA  QUERY  CSS */
+/* ----------------- */
+@media only screen and (max-width: 980px) {
+  .technologies-container {
+    height: 515px;
+  }
+  .tech-image {
+    padding-top: 20px;
+    height: 112px;
+    width: auto;
+  }
+}

@@ -17,3 +17,11 @@
   color: #000000;
   font-weight: lighter;
 }
+
+/* MEDIA  QUERY  CSS */
+/* ----------------- */
+@media only screen and (max-width: 980px) {
+  .title {
+    font-size: 48px;
+  }
+}

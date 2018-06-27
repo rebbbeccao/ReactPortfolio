@@ -13,7 +13,7 @@ const style = {
   footerContainer: {
     backgroundColor: '#FFF0F2',
     color: '#000000',
-    height: '20'
+    height: '12'
   },
   footerStamp: {
     marginRight: 0,
