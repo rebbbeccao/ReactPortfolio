@@ -25,3 +25,11 @@
     font-size: 48px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .branding-container {
+    height: 395px;
+  }
+  .title {
+    padding-top: 113px;
+  }
+}

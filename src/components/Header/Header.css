@@ -7,7 +7,6 @@
   opacity: 0.8;
   box-shadow: 2px 3px 2px #dcdcdc;
   color: #000000;
-  /* box-shadow: inset 0px -11px 8px -10 lightgrey; */
 }
 
 .nav {
@@ -20,4 +19,13 @@
   align-content: center;
   display: block;
   margin: 0 auto;
+}
+
+/* MEDIA  QUERY  CSS */
+/* ----------------- */
+@media only screen and (max-width: 480px) {
+  .navbar-item {
+    float: left;
+    font-size: 12px;
+  }
 }
