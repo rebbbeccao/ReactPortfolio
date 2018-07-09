@@ -10,12 +10,17 @@ import experience from './Card/experience.json';
 class Experience extends Component {
   render() {
     return (
-      <div className="experience-container" id="experience-id">
+      <div
+        className="experience-container"
+        className="container"
+        id="experience-id"
+      >
         <h1 className="experience">Experience</h1>
+
         {experience.map((details, key) => (
-          <div className="col-sm-4" key={key}>
+          <div className="col-sm-4">
             <div className="card-container">
-              <div className="card-body">
+              <div className="card-body" key={key}>
                 <CardBack
                   id={details.id}
                   name={details.name}

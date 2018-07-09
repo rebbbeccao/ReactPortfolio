@@ -27,9 +27,9 @@
 }
 @media only screen and (max-width: 480px) {
   .branding-container {
-    height: 395px;
+    height: 195px;
   }
   .title {
-    padding-top: 113px;
+    padding-top: 33px;
   }
 }

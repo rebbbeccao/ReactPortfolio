@@ -62,7 +62,7 @@
 @media only screen and (max-width: 480px) {
   .about-container {
     height: 820px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     padding-top: 67px;
   }
   .text-cushion {

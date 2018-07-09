@@ -9,7 +9,7 @@ export default class CardBack extends Component {
     return (
       <div className="card-side side-back">
         <div className="container-fluid">
-          <div className="row">
+          <div className="row back-row">
             <h2 className="back-title"> {this.props.name}</h2>
             <p className="description">{this.props.description}</p>
             <a href={this.props.projectLink}>

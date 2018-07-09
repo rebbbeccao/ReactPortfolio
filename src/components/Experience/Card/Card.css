@@ -164,3 +164,58 @@ img {
     margin-left: 101px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .card-container {
+    max-width: 150px;
+    height: 190px;
+  }
+  .col-sm-4 {
+    height: auto;
+    width: auto;
+    display: inline-block;
+  }
+
+  /* Card front  */
+  .project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    max-height: 142px;
+  }
+  .front-title {
+    font-size: 17px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .row {
+    margin-top: 16px;
+  }
+
+  /* Card back */
+
+  .side-back {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .back-row {
+    margin-top: 0;
+  }
+  .back-title {
+    display: none;
+  }
+  .description {
+    font-size: 11px;
+    padding: 0;
+  }
+  .project-link {
+    height: 15px;
+    width: 15px;
+    bottom: 20px;
+    margin-top: 8px;
+    margin-left: 101px;
+  }
+}
