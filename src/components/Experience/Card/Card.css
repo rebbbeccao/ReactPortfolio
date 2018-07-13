@@ -169,6 +169,8 @@ img {
   .card-container {
     max-width: 150px;
     height: 190px;
+    line-height: 190px;
+    text-align: center;
   }
   .col-sm-4 {
     height: auto;
@@ -208,6 +210,9 @@ img {
     display: none;
   }
   .description {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: 50%;
     font-size: 11px;
     padding: 0;
   }
@@ -216,6 +221,10 @@ img {
     width: 15px;
     bottom: 20px;
     margin-top: 8px;
-    margin-left: 101px;
+    /* display: inline-block;
+    padding-left: auto;
+    padding-right: auto; */
+
+    align-content: center;
   }
 }
