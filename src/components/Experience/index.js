@@ -10,11 +10,7 @@ import experience from './Card/experience.json';
 class Experience extends Component {
   render() {
     return (
-      <div
-        className="experience-container"
-        className="container"
-        id="experience-id"
-      >
+      <div className="experience-container" id="experience-id">
         <h1 className="experience">Experience</h1>
 
         {experience.map((details, key) => (

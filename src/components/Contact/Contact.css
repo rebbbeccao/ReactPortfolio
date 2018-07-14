@@ -88,3 +88,39 @@
     font-size: 16px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .contact-content {
+    height: 420px;
+    margin-top: 53px;
+  }
+  .me-pic {
+    width: 165px;
+    height: 165px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  .col-sm-3 {
+    display: inline-block;
+  }
+  .contact-icon {
+    width: 85px;
+    height: 85px;
+    padding: 0;
+  }
+  .contact-row-2 {
+    margin-top: 20px;
+  }
+  .hovering-div {
+    width: 100px;
+    height: 64px;
+  }
+  .location {
+    font-size: 10px;
+    padding-top: 3px;
+  }
+  .location-2 {
+    font-size: 10px;
+  }
+}

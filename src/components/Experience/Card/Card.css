@@ -168,8 +168,8 @@ img {
 @media only screen and (max-width: 480px) {
   .card-container {
     max-width: 150px;
-    height: 190px;
-    line-height: 190px;
+    height: 180px;
+    /* line-height: 180px; */
     text-align: center;
   }
   .col-sm-4 {
@@ -187,7 +187,7 @@ img {
     max-height: 142px;
   }
   .front-title {
-    font-size: 17px;
+    font-size: 14px;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -214,17 +214,14 @@ img {
     display: inline-block;
     vertical-align: 50%;
     font-size: 11px;
-    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0;
   }
   .project-link {
     height: 15px;
     width: 15px;
-    bottom: 20px;
-    margin-top: 8px;
-    /* display: inline-block;
-    padding-left: auto;
-    padding-right: auto; */
-
-    align-content: center;
+    bottom: 10px;
+    margin-left: 46px;
   }
 }
