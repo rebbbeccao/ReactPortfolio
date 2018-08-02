@@ -20,3 +20,14 @@
     width: auto;
   }
 }
+@media only screen and (max-width: 980px) {
+  .technologies-container {
+    height: 352px;
+  }
+  .tech-image {
+    height: 75px;
+    width: auto;
+    padding: 15px;
+    padding-top: 15px;
+  }
+}

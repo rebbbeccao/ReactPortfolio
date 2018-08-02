@@ -8,8 +8,8 @@
     "techImage": "/assets/css.jpg"
   },
   {
-    "techTitle": "git",
-    "techImage": "/assets/git.jpg"
+    "techTitle": "express",
+    "techImage": "/assets/express.jpg"
   },
   {
     "techTitle": "javascript",
@@ -28,8 +28,8 @@
     "techImage": "/assets/node.jpg"
   },
   {
-    "techTitle": "express",
-    "techImage": "/assets/express.jpg"
+    "techTitle": "git",
+    "techImage": "/assets/git.jpg"
   },
   {
     "techTitle": "ajax",
